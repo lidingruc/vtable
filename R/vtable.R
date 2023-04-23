@@ -640,7 +640,7 @@ vtable <- function(data,out=NA,file=NA,labels=NA,class=TRUE,values=TRUE,missing=
   #Head of file
   out.html <- paste('
                     <html style=\"font-family:Helvetica,Arial,Sans\">
-                    <head><title>',data.title,'</title>',
+                    <head> <meta charset="utf-8"><title>',data.title,'</title>',
                     '<style type = \"text/css\">
                     p {
                     font-size:smaller;
